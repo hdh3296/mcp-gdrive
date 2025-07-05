@@ -1,3 +1,19 @@
 .env
 /dist
 /node_modules
+
+# 개인 설정 파일들 (보안상 중요)
+.gdrive-server-credentials.json
+gcp-oauth.keys.json
+*credentials*.json
+*oauth*.json
+
+# 로그 파일
+*.log
+logs/
+
+# 개인 설정 디렉토리
+.config/
+
+# macOS
+.DS_Store
