@@ -2,8 +2,8 @@
 
 ## 설정 완료 정보
 - **설정일**: 2025년 1월 5일
-- **사용자**: hdh3296@gmail.com
-- **프로젝트 경로**: `/Users/hdh/BG/my_projects/mcp-gdrive-setup/`
+- **사용자**: [개인 Gmail 계정]
+- **프로젝트 경로**: `[개인 프로젝트 디렉토리]/mcp-gdrive-setup/`
 
 ## OAuth 인증 설정
 1. Google Cloud Console에서 프로젝트 생성: `mcp-gdrive-setup`
@@ -13,7 +13,7 @@
 
 ## 파일 구조
 ```
-/Users/hdh/BG/my_projects/mcp-gdrive-setup/
+[프로젝트 루트]/mcp-gdrive-setup/
 ├── mcp-gdrive/ (포크된 저장소)
 │   ├── dist/index.js (메인 서버 파일)
 │   └── ...
@@ -24,7 +24,7 @@
 
 ## 실행 방법
 ```bash
-cd /Users/hdh/BG/my_projects/mcp-gdrive-setup/mcp-gdrive
+cd [프로젝트 경로]/mcp-gdrive-setup/mcp-gdrive
 node ./dist/index.js
 ```
 
@@ -34,7 +34,7 @@ node ./dist/index.js
   "mcpServers": {
     "gdrive": {
       "command": "node",
-      "args": ["/Users/hdh/BG/my_projects/mcp-gdrive-setup/mcp-gdrive/dist/index.js"],
+      "args": ["[프로젝트 경로]/mcp-gdrive-setup/mcp-gdrive/dist/index.js"],
       "env": {}
     }
   }
